@@ -1,23 +1,38 @@
 PODS:
+  - AlivcConan (1.0.3):
+    - AlivcConan/AlivcConan (= 1.0.3)
+  - AlivcConan/AlivcConan (1.0.3)
+  - AliyunOSSiOS (2.10.8)
+  - AliyunVideoSDKStd (3.17.1)
   - Flutter (1.0.0)
-  - QuCore-ThirdParty (3.15.0)
+  - VODUpload (1.6.1):
+    - AliyunOSSiOS
 
 DEPENDENCIES:
+  - AlivcConan (= 1.0.3)
+  - AliyunOSSiOS
+  - AliyunVideoSDKStd (= 3.17.1)
   - Flutter (from `Flutter`)
-  - QuCore-ThirdParty (= 3.15.0)
+  - VODUpload
 
 SPEC REPOS:
   trunk:
-    - QuCore-ThirdParty
+    - AlivcConan
+    - AliyunOSSiOS
+    - AliyunVideoSDKStd
+    - VODUpload
 
 EXTERNAL SOURCES:
   Flutter:
     :path: Flutter
 
 SPEC CHECKSUMS:
+  AlivcConan: afb3f657f23ae8476789deca6f14236f4cdd5d54
+  AliyunOSSiOS: 8db92936545593b9e5c66d680ef2ac0738946651
+  AliyunVideoSDKStd: 5366ee83399c7ab6aabb2badb011502f4171c671
   Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
-  QuCore-ThirdParty: f3c49341745bd366e8557a8994407cbbda5c1c44
+  VODUpload: 2c8ac654ceda839dda97a92023a270041dd9901e
 
-PODFILE CHECKSUM: faa224eb688bb54c08775068bfa95754801c6f88
+PODFILE CHECKSUM: 77d53b6c6afbc3c64467ead6ca84fd7ed8e9dbef
 
 COCOAPODS: 1.10.0
