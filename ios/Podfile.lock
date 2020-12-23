@@ -1,8 +1,14 @@
 PODS:
   - Flutter (1.0.0)
+  - QuCore-ThirdParty (3.15.0)
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
+  - QuCore-ThirdParty (= 3.15.0)
+
+SPEC REPOS:
+  trunk:
+    - QuCore-ThirdParty
 
 EXTERNAL SOURCES:
   Flutter:
@@ -10,7 +16,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  QuCore-ThirdParty: f3c49341745bd366e8557a8994407cbbda5c1c44
 
-PODFILE CHECKSUM: faeea7ff898e5cb2ee9d0366d4e65f5f43b56062
+PODFILE CHECKSUM: faa224eb688bb54c08775068bfa95754801c6f88
 
 COCOAPODS: 1.10.0
