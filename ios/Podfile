@@ -42,7 +42,7 @@ target 'Runner' do
 #  pod 'VODUpload',:git => 'https://github.com/aliyunvideo/VODUpload.git',:tag => '1.5.3'
 
   pod 'AliyunVideoSDKStd', '3.17.1'
-#  pod 'QuCore-ThirdParty', '3.15.0' #// the problem one
+  pod 'QuCore-ThirdParty', '3.15.0' #// the problem one
   pod 'AlivcConan', '1.0.3'
   pod 'VODUpload'
   pod 'AliyunOSSiOS'
